@@ -1,0 +1,156 @@
+18:08:01 close(3)                       = 0
+18:08:01 execve("/usr/libexec/gcc/x86_64-linux-gnu/13/collect2", ["/usr/libexec/gcc/x86_64-linux-gnu/13/collect2", "-plugin", "/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so", "-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper", "-plugin-opt=-fresolution=demo.res", "-plugin-opt=-pass-through=-lgcc", "-plugin-opt=-pass-through=-lgcc_s", "-plugin-opt=-pass-through=-lc", "-plugin-opt=-pass-through=-lgcc", "-plugin-opt=-pass-through=-lgcc_s", "--build-id", "--eh-frame-hdr", "-m", "elf_x86_64", "--hash-style=gnu", "--as-needed", "-dynamic-linker", "/lib64/ld-linux-x86-64.so.2", "-pie", "-z", "now", "-z", "relro", "-o", "demo", "/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o", "/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o", "/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o", "-L/usr/lib/gcc/x86_64-linux-gnu/13", "-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu", "-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib", "-L/lib/x86_64-linux-gnu", "-L/lib/../lib", "-L/usr/lib/x86_64-linux-gnu", "-L/usr/lib/../lib", "-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..", "demo.o", "-lgcc", "--push-state", "--as-needed", "-lgcc_s", "--pop-state", "-lc", "-lgcc", "--push-state", "--as-needed", "-lgcc_s", "--pop-state", "/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o", "/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o"], 0x3f771f60 /* 68 vars */) = 0
+18:08:01 brk(NULL)                      = 0x24d51000
+18:08:01 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x789e44472000
+18:08:01 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+18:08:01 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+18:08:01 fstat(3, {st_mode=S_IFREG|0644, st_size=69095, ...}) = 0
+18:08:01 mmap(NULL, 69095, PROT_READ, MAP_PRIVATE, 3, 0) = 0x789e44461000
+18:08:01 close(3)                       = 0
+18:08:01 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+18:08:01 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0@\0\0\0\0\0\0\0\20^ \0\0\0\0\0\0\0\0\0@\08\0\16\0@\0@\0?\0\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\20\3\0\0\0\0\0\0\20\3\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\240g\35\0\0\0\0\0\240g\35\0\0\0\0\0\240g\35\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\220s\2\0\0\0\0\0\220s\2\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\200\2\0\0\0\0\0\0\200\2\0\0\0\0\0\0\200\2\0\0\0\0\0\271|\30\0\0\0\0\0\271|\30\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\4\0\0\0\0\0\33\0\0\0\0\0\0\0\33\0\0\0\0\0\0\0\33\0\0\0\0\0\202\340\4\0\0\0\0\0\202\340\4\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0`\354\37\0\0\0\0\0`\374\37\0\0\0\0\0`\374\37\0\0\0\0\0hJ\0\0\0\0\0\0000!\1\0\0\0\0\0\0\20\0\0\0\0\0\0\2\0\0\0\6\0\0\0@\31 \0\0\0\0\0@) \0\0\0\0\0@) \0\0\0\0\0@\2\0\0\0\0\0\0@\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0000\0\0\0\0\0\0\0000\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\200\3\0\0\0\0\0\0\200\3\0\0\0\0\0\0\200\3\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0`\354\37\0\0\0\0\0`\374\37\0\0\0\0\0`\374\37\0\0\0\0\0\20\0\0\0\0\0\0\0\210\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0S\345td\4\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0000\0\0\0\0\0\0\0000\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0P\345td\4\0\0\0\274g\35\0\0\0\0\0\274g\35\0\0\0\0\0\274g\35\0\0\0\0\0lv\0\0\0\0\0\0lv\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0`\354\37\0\0\0\0\0`\374\37\0\0\0\0\0`\374\37\0\0\0\0\0\2403\0\0\0\0\0\0", 832) = 832
+18:08:01 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\20\3\0\0\0\0\0\0\20\3\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\240g\35\0\0\0\0\0\240g\35\0\0\0\0\0\240g\35\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\220s\2\0\0\0\0\0\220s\2\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\200\2\0\0\0\0\0\0\200\2\0\0\0\0\0\0\200\2\0\0\0\0\0\271|\30\0\0\0\0\0\271|\30\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\4\0\0\0\0\0\33\0\0\0\0\0\0\0\33\0\0\0\0\0\0\0\33\0\0\0\0\0\202\340\4\0\0\0\0\0\202\340\4\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0`\354\37\0\0\0\0\0`\374\37\0\0\0\0\0`\374\37\0\0\0\0\0hJ\0\0\0\0\0\0000!\1\0\0\0\0\0\0\20\0\0\0\0\0\0\2\0\0\0\6\0\0\0@\31 \0\0\0\0\0@) \0\0\0\0\0@) \0\0\0\0\0@\2\0\0\0\0\0\0@\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0000\0\0\0\0\0\0\0000\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\200\3\0\0\0\0\0\0\200\3\0\0\0\0\0\0\200\3\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0`\354\37\0\0\0\0\0`\374\37\0\0\0\0\0`\374\37\0\0\0\0\0\20\0\0\0\0\0\0\0\210\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0S\345td\4\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0000\0\0\0\0\0\0\0000\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0P\345td\4\0\0\0\274g\35\0\0\0\0\0\274g\35\0\0\0\0\0\274g\35\0\0\0\0\0lv\0\0\0\0\0\0lv\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0`\354\37\0\0\0\0\0`\374\37\0\0\0\0\0`\374\37\0\0\0\0\0\2403\0\0\0\0\0\0\2403\0\0\0\0\0\0\1\0\0\0\0\0\0\0", 784, 64) = 784
+18:08:01 fstat(3, {st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0
+18:08:01 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\20\3\0\0\0\0\0\0\20\3\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\240g\35\0\0\0\0\0\240g\35\0\0\0\0\0\240g\35\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\220s\2\0\0\0\0\0\220s\2\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\200\2\0\0\0\0\0\0\200\2\0\0\0\0\0\0\200\2\0\0\0\0\0\271|\30\0\0\0\0\0\271|\30\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\4\0\0\0\0\0\33\0\0\0\0\0\0\0\33\0\0\0\0\0\0\0\33\0\0\0\0\0\202\340\4\0\0\0\0\0\202\340\4\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0`\354\37\0\0\0\0\0`\374\37\0\0\0\0\0`\374\37\0\0\0\0\0hJ\0\0\0\0\0\0000!\1\0\0\0\0\0\0\20\0\0\0\0\0\0\2\0\0\0\6\0\0\0@\31 \0\0\0\0\0@) \0\0\0\0\0@) \0\0\0\0\0@\2\0\0\0\0\0\0@\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0000\0\0\0\0\0\0\0000\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\200\3\0\0\0\0\0\0\200\3\0\0\0\0\0\0\200\3\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0`\354\37\0\0\0\0\0`\374\37\0\0\0\0\0`\374\37\0\0\0\0\0\20\0\0\0\0\0\0\0\210\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0S\345td\4\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0000\0\0\0\0\0\0\0000\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0P\345td\4\0\0\0\274g\35\0\0\0\0\0\274g\35\0\0\0\0\0\274g\35\0\0\0\0\0lv\0\0\0\0\0\0lv\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0`\354\37\0\0\0\0\0`\374\37\0\0\0\0\0`\374\37\0\0\0\0\0\2403\0\0\0\0\0\0\2403\0\0\0\0\0\0\1\0\0\0\0\0\0\0", 784, 64) = 784
+18:08:01 mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x789e44200000
+18:08:01 mmap(0x789e44228000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x789e44228000
+18:08:01 mmap(0x789e443b0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x789e443b0000
+18:08:01 mmap(0x789e443ff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000) = 0x789e443ff000
+18:08:01 mmap(0x789e44405000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x789e44405000
+18:08:01 close(3)                       = 0
+18:08:01 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x789e4445e000
+18:08:01 arch_prctl(ARCH_SET_FS, 0x789e4445e740) = 0
+18:08:01 set_tid_address(0x789e4445ea10) = 24692
+18:08:01 set_robust_list(0x789e4445ea20, 24) = 0
+18:08:01 rseq(0x789e4445f060, 0x20, 0, 0x53053053) = 0
+18:08:01 mprotect(0x789e443ff000, 16384, PROT_READ) = 0
+18:08:01 mprotect(0x44f000, 8192, PROT_READ) = 0
+18:08:01 mprotect(0x789e444aa000, 8192, PROT_READ) = 0
+18:08:01 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=65536*1024, rlim_max=RLIM64_INFINITY}) = 0
+18:08:01 munmap(0x789e44461000, 69095)  = 0
+18:08:01 getrandom("\xcd\x17\x18\x79\x38\xc6\x66\xd4", 8, GRND_NONBLOCK) = 8
+18:08:01 brk(NULL)                      = 0x24d51000
+18:08:01 brk(0x24d72000)                = 0x24d72000
+18:08:01 rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[QUIT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+18:08:01 rt_sigaction(SIGQUIT, {sa_handler=0x40c14d, sa_mask=[QUIT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_IGN, sa_mask=[QUIT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, 8) = 0
+18:08:01 rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+18:08:01 rt_sigaction(SIGINT, {sa_handler=0x40c14d, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_IGN, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, 8) = 0
+18:08:01 rt_sigaction(SIGALRM, {sa_handler=SIG_IGN, sa_mask=[ALRM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+18:08:01 rt_sigaction(SIGALRM, {sa_handler=0x40c14d, sa_mask=[ALRM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_IGN, sa_mask=[ALRM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, 8) = 0
+18:08:01 rt_sigaction(SIGHUP, {sa_handler=SIG_IGN, sa_mask=[HUP], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+18:08:01 rt_sigaction(SIGHUP, {sa_handler=0x40c14d, sa_mask=[HUP], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_IGN, sa_mask=[HUP], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, 8) = 0
+18:08:01 rt_sigaction(SIGSEGV, {sa_handler=SIG_IGN, sa_mask=[SEGV], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+18:08:01 rt_sigaction(SIGSEGV, {sa_handler=0x40c14d, sa_mask=[SEGV], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_IGN, sa_mask=[SEGV], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, 8) = 0
+18:08:01 rt_sigaction(SIGTERM, {sa_handler=SIG_IGN, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+18:08:01 rt_sigaction(SIGTERM, {sa_handler=0x40c14d, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_IGN, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, 8) = 0
+18:08:01 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+18:08:01 rt_sigaction(SIGPIPE, {sa_handler=0x40c14d, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, 8) = 0
+18:08:01 rt_sigaction(SIGBUS, {sa_handler=SIG_IGN, sa_mask=[BUS], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+18:08:01 rt_sigaction(SIGBUS, {sa_handler=0x40c14d, sa_mask=[BUS], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_IGN, sa_mask=[BUS], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, 8) = 0
+18:08:01 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[CHLD], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x789e44245330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+18:08:01 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+18:08:01 fstat(3, {st_mode=S_IFREG|0644, st_size=8886384, ...}) = 0
+18:08:01 mmap(NULL, 8886384, PROT_READ, MAP_PRIVATE, 3, 0) = 0x789e43800000
+18:08:01 close(3)                       = 0
+18:08:01 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+18:08:01 fstat(3, {st_mode=S_IFREG|0644, st_size=2996, ...}) = 0
+18:08:01 read(3, "# Locale name alias data base.\n# Copyright (C) 1996-2024 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General Public License as published by\n# the Free Software Foundation; either version 2, or (at your option)\n# any later version.\n#\n# This program is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n# GNU General Public License for more details.\n#\n# You should have received a copy of the GNU General Public License\n# along with this program; if not, see <https://www.gnu.org/licenses/>.\n\n# The format of this file is the same as for the corresponding file of\n# the X Window System, which normally can be found in\n#\t/usr/lib/X11/locale/locale.alias\n# A single line contains two fields: an alias and a substitution value.\n# All entries are case independent.\n\n# Note: This file is obsolete and is kept around for the time being for\n# backward compatibility.  Nobody should rely on the names defined here.\n# Locales should always be specified by their full name.\n\n# Note: This file used to contain the following lines:\n#\tbokmaal\t\tnb_NO.ISO-8859-1\n#\tfranc,ais\tfr_FR.ISO-8859-1\n# except that the \"aa\" was actually the byte '\\0xE5' (the Latin-1\n# encoding for U+00E5 LATIN SMALL LETTER A WITH RING ABOVE) and the\n# \"c,\" was actually the byte '\\xE7' (the Latin-1 encoding for U+00E7\n# LATIN SMALL LETTER C WITH CEDILLA).  These lines were removed\n# because they caused 'locale -a' to output text encoded in Latin-1,\n# which broke applications in UTF-8 locales.  See:\n# https://sourceware.org/bugzilla/show_bug.cgi?id=18412\n\nbokmal\t\tnb_NO.ISO-8859-1\ncatalan\t\tca_ES.ISO-8859-1\ncroatian\thr_HR.ISO-8859-2\nczech\t\tcs_CZ.ISO-8859-2\ndanish          da_DK.ISO-8859-1\ndansk\t\tda_DK.ISO-8859-1\ndeutsch\t\tde_DE.ISO-8859-1\ndutch\t\tnl_NL.ISO-8859-1\neesti\t\tet_EE.ISO-8859-15\nestonian\tet_EE.ISO-8859-15\nfi"..., 4096) = 2996
+18:08:01 read(3, "", 4096)              = 0
+18:08:01 close(3)                       = 0
+18:08:01 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/gcc-13.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+18:08:01 openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/gcc-13.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+18:08:01 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US/LC_MESSAGES/gcc-13.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+18:08:01 openat(AT_FDCWD, "/usr/share/locale-langpack/en/LC_MESSAGES/gcc-13.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+18:08:01 ioctl(2, TCGETS, {c_iflag=BRKINT|ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD|HUPCL, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+18:08:01 ioctl(0, TIOCGWINSZ, {ws_row=9, ws_col=102, ws_xpixel=0, ws_ypixel=0}) = 0
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/real-ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/real-ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/real-ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/13/real-ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/real-ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/collect-ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/collect-ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/collect-ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/13/collect-ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/collect-ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/13/ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/sbin/ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/bin/ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/sbin/ld", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/bin/ld", {st_mode=S_IFREG|0755, st_size=1359128, ...}, 0) = 0
+18:08:01 access("/usr/bin/ld", X_OK)    = 0
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/13/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/sbin/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/bin/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/sbin/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/bin/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/sbin/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/bin/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/games/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/games/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/snap/bin/gnm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/nm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/nm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/nm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/13/nm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/nm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/sbin/nm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/bin/nm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/sbin/nm", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/bin/nm", {st_mode=S_IFREG|0755, st_size=44544, ...}, 0) = 0
+18:08:01 access("/usr/bin/nm", X_OK)    = 0
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/13/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/sbin/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/bin/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/sbin/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/bin/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/sbin/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/bin/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/games/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/games/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/snap/bin/gstrip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/strip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/strip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/strip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/13/strip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/strip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/sbin/strip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/bin/strip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/sbin/strip", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/bin/strip", {st_mode=S_IFREG|0755, st_size=166568, ...}, 0) = 0
+18:08:01 access("/usr/bin/strip", X_OK) = 0
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/gcc", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/13/gcc", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/libexec/gcc/x86_64-linux-gnu/gcc", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/13/gcc", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/lib/gcc/x86_64-linux-gnu/gcc", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/sbin/gcc", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/local/bin/gcc", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/sbin/gcc", 0x7ffe0b91a550, 0) = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "/usr/bin/gcc", {st_mode=S_IFREG|0755, st_size=1023032, ...}, 0) = 0
+18:08:01 access("/usr/bin/gcc", X_OK)   = 0
+18:08:01 pipe2([3, 4], O_CLOEXEC)       = 0
+18:08:01 vfork()                        = 24693
+18:08:01 close(4)                       = 0
+18:08:01 read(3, "", 16)                = 0
+18:08:01 close(3)                       = 0
+18:08:01 wait4(24693, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 24693
+18:08:01 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=24693, si_uid=1000, si_status=0, si_utime=1 /* 0.01 s */, si_stime=2 /* 0.02 s */} ---
+18:08:01 access("demo.cdtor.c", R_OK)   = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "demo.cdtor.c", 0x7ffe0b91a660, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+18:08:01 access("demo.cdtor.o", R_OK)   = -1 ENOENT (No such file or directory)
+18:08:01 newfstatat(AT_FDCWD, "demo.cdtor.o", 0x7ffe0b91a660, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+18:08:01 exit_group(0)                  = ?
+18:08:01 +++ exited with 0 +++
